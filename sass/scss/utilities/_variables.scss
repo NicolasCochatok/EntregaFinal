@@ -1,8 +1,13 @@
-// _variable.scss
-$color-primario: #2673e6;
-$color-secundario: #FFA500;
+// Colores principales
+$primary-color: #12657a;
+$secondary-color: #6c757d;
+$background-color: #12657a;
 $color-texto: #333;
-$color-fondo: #f9f9f9;
+$radio-borde-base: 8px;
 
-$radio-borde-base: 6px;
-$velocidad-transicion: 0.3s;
+// Tipografías
+$font-stack: 'Arial', sans-serif;
+
+// Espaciados
+$padding: 1rem;
+$margin: 1rem;

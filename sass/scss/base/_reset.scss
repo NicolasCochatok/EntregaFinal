@@ -1,8 +1,12 @@
-   // Reset básico de márgenes y rellenos
-    *,
-    *::before,
-    *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
+/* Reset básico para evitar inconsistencias entre navegadores */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color: #f5f5f5;
+}

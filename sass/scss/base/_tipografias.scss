@@ -1,0 +1,11 @@
+// Estilos de tipografía global
+@use '../utilities/variables' as v;
+    body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.5;
+        color: v.$color-texto;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Roboto', sans-serif;
+    }
+    
