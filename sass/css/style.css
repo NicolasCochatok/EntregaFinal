@@ -1,14 +1,13 @@
 @charset "UTF-8";
 
-/* Reset básico para evitar inconsistencias entre navegadores */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Sticky footer: asegurar que el footer quede al final */
-/* Estas reglas se aplican al HTML y body, y requieren que el HTML esté envuelto en .wrapper y .content */
+
 html, body {
   height: 100%;
 }
@@ -16,9 +15,9 @@ html, body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-.content {
-  flex: 1;
+  
+.main-content {
+  flex: 1; 
 }
 
 
@@ -161,7 +160,7 @@ textarea {
 .about-container p {
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #fff; /* Párrafos en blanco */
+  color: #fff; 
   margin-bottom: 1.5rem;
 }
 
@@ -229,8 +228,6 @@ textarea {
 }
 
 /* Formulario de contacto */
-/* Asumimos que en la página Contact se usa .contact-form */
-/* Y los párrafos de Contact deben ser blancos */
 .contact-form {
   max-width: 500px;
   margin: auto;
